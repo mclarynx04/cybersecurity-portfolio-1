@@ -30,8 +30,16 @@ occurred, identify indicators of compromise, and assess potential impact.
 - Phishing URL: http://microsoft-login-secure.co/verify
 - Email subject: Urgent Unusual Sign-in Activity Detected
 
- 8. Lessons Learned
+ 7. Lessons Learned
 User should be trained to verify sender domians before clicking links
 Urgent language is a common phishing link
 Multi-factor authentication can reduce the impact of credential theft
 Early reporting helps reduce damage from phishing attacks.
+
+ 8. MITRE ATTACK Mapping
+
+| Tactic | Technique ID | Technique Name | Description |
+|--------|--------------|----------------|-------------|
+| Initial Access | T1566 | Phishing | The attacker used a phishing email to trick the user into providing credentials |
+| Credential Access | T1056 | Input Capture | User credentials were captured through a fake login page |
+
